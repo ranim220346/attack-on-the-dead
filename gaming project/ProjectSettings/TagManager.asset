@@ -45,24 +45,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: TransparentFX
+  - name: bye
     uniqueID: 2010248923
     locked: 0
-  - name: Ignore Raycast
+  - name: Background
     uniqueID: 2136346967
     locked: 0
-  - name: Water
+  - name: Chest
     uniqueID: 1900613061
     locked: 0
-  - name: UI
+  - name: Side chr
     uniqueID: 169387007
     locked: 0
-  - name: Ground
+  - name: Character
     uniqueID: 556391471
-    locked: 0
-  - name: Spikes
-    uniqueID: 4286706561
-    locked: 0
-  - name: Enemy
-    uniqueID: 1363634011
     locked: 0
