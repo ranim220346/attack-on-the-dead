@@ -1501,7 +1501,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 962613713
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53d28fd809e78b64fbc14ca77b90b497, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2669,7 +2669,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1924908761
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 119290378, guid: a53e63fd561b89844b12152c9de79e49, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3939,7 +3939,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -398410583
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -623956399, guid: f9bee164d3d401a4b9a04e97cfb4c3c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5184,7 +5184,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 960989823
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1823504243, guid: a2ef96b428f04c9408b0783a811edb56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5821,7 +5821,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1924908761
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 85cd63e6ee6356c42af3cc205ab2f0e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6712,13 +6712,13 @@ MonoBehaviour:
   groundcheck: {fileID: 697999291}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 72
   groundcheckradius: 0.5
   AttackPart: {fileID: 1191598580}
   attackrange: 0.7
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 264
   attackDamage: 100
   attackRate: 4
   totalkey: 0
@@ -6808,7 +6808,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1924908761
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 60660206, guid: 8bb07fe0ff6f03842acad8988362d6d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9134,7 +9134,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -398410583
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -623956399, guid: f9bee164d3d401a4b9a04e97cfb4c3c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9552,7 +9552,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1924908761
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1536370129, guid: 983c2462013292746a2e6e0f5fcac872, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15608,7 +15608,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 960989823
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -253769908, guid: 8f95aec111352bb46ab81c9bfa823065, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17198,7 +17198,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1924908761
-  m_SortingLayer: 5
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 85cd63e6ee6356c42af3cc205ab2f0e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17745,7 +17745,7 @@ GameObject:
   - component: {fileID: 2027230179}
   - component: {fileID: 2027230181}
   - component: {fileID: 2027230182}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: ZombieMan
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -17810,8 +17810,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1924908761
-  m_SortingLayer: 5
+  m_SortingLayerID: 2010248923
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1749122973, guid: c4a8540396d905444b39eb3de9e22da1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
