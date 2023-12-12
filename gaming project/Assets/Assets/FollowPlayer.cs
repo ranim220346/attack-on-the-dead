@@ -24,7 +24,7 @@ public class FollowPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim2 = GetComponent<Animator>();
         player = FindObjectOfType<PlayerController>();
-
+        flip();
     }
 
     // Update is called once per frame
@@ -46,11 +46,18 @@ public class FollowPlayer : MonoBehaviour
         anim2.SetBool("isWalking", true);
     }
 
+    void flip()
+    {
+
+        transform.localScale = new Vector3(-(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+    }
+
     void Jump()
     {
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpheight);
-
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)
