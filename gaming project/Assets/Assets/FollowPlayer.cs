@@ -24,7 +24,8 @@ public class FollowPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim2 = GetComponent<Animator>();
         player = FindObjectOfType<PlayerController>();
-        flip();
+        //flip();
+
     }
 
     // Update is called once per frame
@@ -34,16 +35,18 @@ public class FollowPlayer : MonoBehaviour
         {
 
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, maxspeed * Time.deltaTime);
-
+            
         }
 
         else
         {
 
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, -maxspeed * Time.deltaTime);
+            flip();
         }
 
         anim2.SetBool("isWalking", true);
+    
     }
 
     void flip()

@@ -1616,8 +1616,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 962613713
-  m_SortingLayer: 0
+  m_SortingLayerID: 2136346967
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 53d28fd809e78b64fbc14ca77b90b497, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2585,7 +2585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFacingRight: 0
-  maxspeed: 3
+  maxspeed: 0
   damage: 200
   maxHealth: 0
   explodedBlock: {fileID: 0}
@@ -3903,8 +3903,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2010248923
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1043275197, guid: 7f0e162efdfb6564192608fdae3fe706, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4181,7 +4181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 50
+  damage: 100
   maxHealth: 100
   explodedBlock: {fileID: -1148224414, guid: 9f2a46bf7fb99184f9121aead62dcdab, type: 3}
 --- !u!114 &546071041
@@ -4215,7 +4215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 50
+  damage: 100
   maxHealth: 100
   explodedBlock: {fileID: -1148224414, guid: 9f2a46bf7fb99184f9121aead62dcdab, type: 3}
 --- !u!95 &546071043
@@ -5033,7 +5033,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.2954175}
+  m_Offset: {x: 0, y: -1.3234699}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5044,7 +5044,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 3.1662126}
+  m_Size: {x: 1, y: 3.110108}
   m_EdgeRadius: 0
 --- !u!4 &634902312
 Transform:
@@ -6001,8 +6001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 100
-  maxHealth: 100
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: -1471062229, guid: 59da2a20b76da1b4c884943892f8a6ed, type: 3}
 --- !u!114 &705055201
 MonoBehaviour:
@@ -6035,8 +6035,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 100
-  maxHealth: 100
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: -1471062229, guid: 59da2a20b76da1b4c884943892f8a6ed, type: 3}
 --- !u!1 &706981020
 GameObject:
@@ -6526,8 +6526,8 @@ GameObject:
   m_Component:
   - component: {fileID: 804883182}
   - component: {fileID: 804883181}
-  - component: {fileID: 804883183}
   - component: {fileID: 804883184}
+  - component: {fileID: 804883185}
   m_Layer: 0
   m_Name: Checkpoint Flag
   m_TagString: Untagged
@@ -6603,22 +6603,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &804883183
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804883180}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -4.0186033, y: -8.144032}
-  serializedVersion: 2
-  m_Radius: 3.2219677
 --- !u!114 &804883184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6631,6 +6615,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c4752f152e6a244a0152685a175363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &804883185
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804883180}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -4.3280945, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13, y: 30.015781}
+    newSize: {x: 13, y: 30.015781}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2520385, y: 30.015781}
+  m_EdgeRadius: 0
 --- !u!1 &821353738
 GameObject:
   m_ObjectHideFlags: 0
@@ -7370,7 +7380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 400
   Lives: 3
-  healthbar: {fileID: 985462103}
+  healthbar: {fileID: 1231377496}
   flickerDuration: 0.1
   isImmune: 0
   immunityDuration: 1.5
@@ -7578,8 +7588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -603.229, y: 447}
-  m_SizeDelta: {x: 386.7241, y: 71.6414}
+  m_AnchoredPosition: {x: -597.02026, y: 447}
+  m_SizeDelta: {x: 399.1416, y: 71.6414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903115324
 MonoBehaviour:
@@ -7959,7 +7969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 50
+  damage: 100
   maxHealth: 100
   explodedBlock: {fileID: -1148224414, guid: 9f2a46bf7fb99184f9121aead62dcdab, type: 3}
 --- !u!114 &949337526
@@ -7993,7 +8003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 50
+  damage: 100
   maxHealth: 100
   explodedBlock: {fileID: -1148224414, guid: 9f2a46bf7fb99184f9121aead62dcdab, type: 3}
 --- !u!95 &949337528
@@ -8545,8 +8555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -604.3, y: 448}
-  m_SizeDelta: {x: 371.8, y: 50}
+  m_AnchoredPosition: {x: -600.1608, y: 448}
+  m_SizeDelta: {x: 380.0783, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985462103
 MonoBehaviour:
@@ -8881,8 +8891,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 200
-  maxHealth: 200
+  damage: 250
+  maxHealth: 250
   explodedBlock: {fileID: 1681706068, guid: a95a1f4a1774f8b47982298a7f310e04, type: 3}
 --- !u!114 &993622419
 MonoBehaviour:
@@ -8915,8 +8925,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 200
-  maxHealth: 200
+  damage: 250
+  maxHealth: 250
   explodedBlock: {fileID: 1681706068, guid: a95a1f4a1774f8b47982298a7f310e04, type: 3}
 --- !u!1 &999514143
 GameObject:
@@ -9426,8 +9436,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 0
-  damage: 50
-  maxHealth: 100
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: 1446451739, guid: 23af840848f8080439aac25b6f8a789f, type: 3}
 --- !u!114 &1056778567
 MonoBehaviour:
@@ -9460,8 +9470,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 0
-  damage: 50
-  maxHealth: 100
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: 1446451739, guid: 23af840848f8080439aac25b6f8a789f, type: 3}
 --- !u!1 &1066219395
 GameObject:
@@ -9841,8 +9851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 50
-  maxHealth: 50
+  damage: 100
+  maxHealth: 100
   explodedBlock: {fileID: 502180718, guid: 1f4a223fb8e036a4d8add7772cd1b54a, type: 3}
 --- !u!114 &1075559612
 MonoBehaviour:
@@ -9875,8 +9885,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   maxspeed: 0
-  damage: 50
-  maxHealth: 50
+  damage: 100
+  maxHealth: 100
   explodedBlock: {fileID: 502180718, guid: 1f4a223fb8e036a4d8add7772cd1b54a, type: 3}
 --- !u!50 &1075559614
 Rigidbody2D:
@@ -10610,7 +10620,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.000010814518, y: -0.0022039711}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10621,7 +10631,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.31}
+  m_Size: {x: 0.16601959, y: 0.30559206}
   m_EdgeRadius: 0
 --- !u!61 &1104966643
 BoxCollider2D:
@@ -10636,7 +10646,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.000015318394, y: -0.0024494827}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10647,7 +10657,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.31}
+  m_Size: {x: 0.16672981, y: 0.30510104}
   m_EdgeRadius: 0
 --- !u!50 &1104966644
 Rigidbody2D:
@@ -10730,8 +10740,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104966641}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.39, y: -2.5395, z: 0}
-  m_LocalScale: {x: 5.818373, y: 4.738369, z: 1}
+  m_LocalPosition: {x: -30.0036, y: -2.5507, z: 0}
+  m_LocalScale: {x: -6.261733, y: 4.665872, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 945428868}
@@ -11513,7 +11523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 3
-  damage: 50
+  damage: 100
   maxHealth: 100
   explodedBlock: {fileID: -320559385, guid: 71406ddcd365b1144a5743bcd69c001b, type: 3}
 --- !u!114 &1212528142
@@ -11547,7 +11557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 3
-  damage: 50
+  damage: 100
   maxHealth: 100
   explodedBlock: {fileID: -320559385, guid: 71406ddcd365b1144a5743bcd69c001b, type: 3}
 --- !u!1 &1221395924
@@ -11669,8 +11679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -604.3, y: 448}
-  m_SizeDelta: {x: 371.8, y: 50}
+  m_AnchoredPosition: {x: -600.16, y: 448}
+  m_SizeDelta: {x: 380.08, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1231377496
 MonoBehaviour:
@@ -11692,11 +11702,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 25b1ee4297f4eb0468603ae084b0eae2, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -11745,8 +11755,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -676, y: 368}
-  m_SizeDelta: {x: 230.6838, y: 49.995}
+  m_AnchoredPosition: {x: -720.54, y: 368}
+  m_SizeDelta: {x: 141.6, y: 49.995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251418585
 MonoBehaviour:
@@ -12044,7 +12054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Continue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14170,8 +14180,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -676, y: 368}
-  m_SizeDelta: {x: 230.6838, y: 49.995}
+  m_AnchoredPosition: {x: -720.53674, y: 368}
+  m_SizeDelta: {x: 141.5964, y: 49.995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1558195112
 MonoBehaviour:
@@ -14193,11 +14203,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5af0d8bf2619b4941857acc4816a2130, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -15884,8 +15894,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -674.31213, y: 369}
-  m_SizeDelta: {x: 247.3757, y: 71.641}
+  m_AnchoredPosition: {x: -716.36316, y: 369}
+  m_SizeDelta: {x: 163.2736, y: 71.641}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699570811
 MonoBehaviour:
@@ -18711,8 +18721,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1988694091}
   - component: {fileID: 1988694090}
-  - component: {fileID: 1988694092}
   - component: {fileID: 1988694093}
+  - component: {fileID: 1988694094}
   m_Layer: 0
   m_Name: Checkpoint Flag (1)
   m_TagString: Untagged
@@ -18788,22 +18798,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1988694092
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988694089}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -4.3702097, y: -6.3190866}
-  serializedVersion: 2
-  m_Radius: 4.761405
 --- !u!114 &1988694093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18816,6 +18810,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c4752f152e6a244a0152685a175363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1988694094
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988694089}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -4.321214, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13, y: 30.015781}
+    newSize: {x: 13, y: 30.015781}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.6549485, y: 30.015781}
+  m_EdgeRadius: 0
 --- !u!1 &1989184729
 GameObject:
   m_ObjectHideFlags: 0
@@ -18854,8 +18874,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 0
-  damage: 50
-  maxHealth: 100
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: 1446451739, guid: 23af840848f8080439aac25b6f8a789f, type: 3}
 --- !u!114 &1989184731
 MonoBehaviour:
@@ -18888,8 +18908,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 0
-  damage: 50
-  maxHealth: 100
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: 1446451739, guid: 23af840848f8080439aac25b6f8a789f, type: 3}
 --- !u!95 &1989184733
 Animator:
@@ -19670,8 +19690,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 2
-  damage: 100
-  maxHealth: 200
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: -416816928, guid: bad4dd979e2ae6f418fb3e5267471138, type: 3}
 --- !u!61 &2027230179
 BoxCollider2D:
@@ -19739,8 +19759,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 1
   maxspeed: 2
-  damage: 100
-  maxHealth: 200
+  damage: 150
+  maxHealth: 150
   explodedBlock: {fileID: -416816928, guid: bad4dd979e2ae6f418fb3e5267471138, type: 3}
 --- !u!114 &2027230182
 MonoBehaviour:
@@ -30589,7 +30609,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 61.51246, y: 3.9349499}
+  m_Offset: {x: 61.51246, y: 4.0021405}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -30600,7 +30620,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.9467926, y: 14.10577}
+  m_Size: {x: 2.9467926, y: 13.971389}
   m_EdgeRadius: 0
 --- !u!61 &2036511178
 BoxCollider2D:
