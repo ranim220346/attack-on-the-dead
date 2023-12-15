@@ -60,3 +60,6 @@ TagManager:
   - name: Character
     uniqueID: 556391471
     locked: 0
+  - name: layer6
+    uniqueID: 1613974209
+    locked: 0
