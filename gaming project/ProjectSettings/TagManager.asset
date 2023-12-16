@@ -51,15 +51,18 @@ TagManager:
   - name: Background
     uniqueID: 2136346967
     locked: 0
+  - name: ground
+    uniqueID: 2504789821
+    locked: 0
   - name: Chest
     uniqueID: 1900613061
     locked: 0
   - name: Side chr
     uniqueID: 169387007
     locked: 0
-  - name: Character
-    uniqueID: 556391471
-    locked: 0
   - name: layer6
     uniqueID: 1613974209
+    locked: 0
+  - name: Character
+    uniqueID: 556391471
     locked: 0
